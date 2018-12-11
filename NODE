@@ -1,0 +1,30 @@
+BOOTSTRAP_NODES = [
+    "udp://tracker.open-internet.nl:6969/announce",
+    "udp://tracker.coppersurfer.tk:6969/announce",
+    "udp://exodus.desync.com:6969/announce",
+    "udp://tracker.opentrackr.org:1337/announce",
+    "udp://tracker.internetwarriors.net:1337/announce",
+    "udp://9.rarbg.to:2710/announce",
+    "udp://public.popcorn-tracker.org:6969/announce",
+    "udp://tracker.vanitycore.co:6969/announce",
+    "https://1.track.ga:443/announce",
+    "udp://tracker.tiny-vps.com:6969/announce",
+    "udp://tracker.cypherpunks.ru:6969/announce",
+    "udp://thetracker.org:80/announce",
+    "udp://tracker.torrent.eu.org:451/announce",
+    "udp://retracker.lanta-net.ru:2710/announce",
+    "udp://bt.xxx-tracker.com:2710/announce",
+    "http://retracker.telecom.by:80/announce",
+    "http://retracker.mgts.by:80/announce",
+    "http://0d.kebhana.mx:443/announce",
+    "udp://torr.ws:2710/announce",
+    "udp://open.stealth.si:80/announce",
+    ("router.bittorrent.com", 6881),
+    ("dht.transmissionbt.com", 6881),
+    ("router.utorrent.com", 6881),
+    ("router.magnets.im", 6881),
+    ("router.bitcomet.com", 6881),  // BitComet
+    ("dht.aelitis.com", 6881),  // Vuze
+    ("router.silotis.us", 6881), // IPv6
+    ("dht.libtorrent.org", 25401), // @arvidn's
+]
